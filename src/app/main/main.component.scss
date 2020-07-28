@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&display=swap');
+
+body {
+    margin:0;
+}
+
+.yellow {
+    background:#FFCA29;
+}
+
+.blue {
+    background:#6699FC;
+}
+
+#text_x5F_A {
+  stroke:#999;
+  stroke-width:1px;
+}
+
+svg {
+  visibility:hidden;
+}
+
+
+
+/* css from Sarah Drasner's Hero Generator */
+
+
+.yellow {
+    background:#FFD54F;
+}
+
+.fillViewport {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100vh; /* if you don't want it to take up the full screen, reduce this number */
+  overflow: hidden;
+}
+
+.masthead {
+  
+  
+  background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,0.65) 100%), url(https://assets.codepen.io/32887/jonathan-riley-VW8MUbHyxCU-unsplash.jpg) no-repeat center top scroll;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #eee;
+  font-size: 11vmin;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.8);
+  margin-bottom: 40px;
+}
+    
+      
+button {
+  background: #DD2C00;
+  transition: background ease .25s;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  margin: 0;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+button:hover {
+  background: #63b6b8
+}
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+
+.box.active {
+    background-color: blue;
+  }
+  
+  
+  
+  
+  
+  body {
+    background-color: #111;
+    background-image:
+      linear-gradient(rgba(255,255,255,.07) 2px, transparent 2px),
+      linear-gradient(90deg, rgba(255,255,255,.07) 2px, transparent 2px),
+      linear-gradient(rgba(255,255,255,.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.06) 1px, transparent 1px);
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #28a92b;
+    position: absolute;
+    left: 100px;
+    z-index: 100;
+    line-height: 100px;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .a {
+    top: 200px;
+    background-color: #8d3dae;
+  }
+  
+  .b {
+    top: 600px;
+  }
+  
+  .c {
+    top: 1000px;
+    background-color: #e26c16;
+  }
+  
+  .ghost {
+    top: 1000px;
+    background-color: #444;
+  }
+  
+  .line {
+    width: 2px;
+    height: 3000px;
+    position: absolute;
+    left: 600px;
+    top: 0px;
+  /*   visibility: hidden; */
+    background-color: #777;
+  }
+  

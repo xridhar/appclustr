@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "appclustr"
+    }
+  },
+  "defaultProject": "appclustr",
+  "cli": {
+    "analytics": false
+  }
 }
